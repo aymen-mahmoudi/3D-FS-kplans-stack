@@ -4,19 +4,15 @@
 
 ## Description
 
-Comparing the isoenergy cuts of an FS ARPES data can be very helpful in checking the homogeneity of domains and tracking the BZ shape evolution against the binding energy. This script enables a 3D superposition of isoenergy cuts.
-<br>
-<br>   
-This program was used to generate the output example above published in https://pubs.acs.org/doi/abs/10.1021/acsnano.3c04186
+From an ARPES Fermi Surface (FS) 3D data (kx, ky, E), horizontal and vertical cuts according can be extracted to obtain isoenergetic plans or iso-k-plans. The isoenergy cuts can be very helpful in checking the homogeneity of domains and tracking the BZ shape evolution against the binding energy or tracking the evolution of bands against the k position. More generally, this script enables a 3D superposition of images.
 
-<img src="./resources/3D_output_sample.png"
+<img src="./resources/3D_E_k_sample.png"
      alt="3D output sample"
       style="float: center"/>
+        
+This program was used to generate the output example above published in ACS Nano 2023, 17, 19, 18924–18931 (2023)
 
-Aside from the tracking of the BZ shape evolution, the evolution of bands against the k position cut can be useful as illustrated in the example below: 
-<img src="./resources/3D_output_sample.png"
-     alt="3D output sample"
-      style="float: center"/>
+
 ## Installation
 You need just jupyter notebook editor with a recent version of a Python interpreter (the easiest way to get both will be via anaconda distribution : https://www.anaconda.com/). The use of the jupyter notebook is super friendly, you have just to offord the suitable libraries. If you want to use it via a venv, It is already tested under python 3.8 (just make sure you install the librairies in the file requirements.txt). To generate the 3D stack, you need only to tune the parameteres to have the output you want.
 <br>
