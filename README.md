@@ -10,7 +10,7 @@ From an ARPES Fermi Surface (FS) 3D data (kx, ky, E), horizontal and vertical cu
      alt="3D output sample"
       style="float: center"/>
         
-This program was used to generate the output example above published in ACS Nano 2023, 17, 19, 18924–18931 (2023)
+This program was used to generate the output example above published in  <a href="https://pubs.acs.org/doi/abs/10.1021/acsnano.3c04186" target="_blank">***ACS Nano 2023, 17, 19, 18924–18931 (2023)***</a>
 
 
 ## Installation
